@@ -1,0 +1,40 @@
+name: Generate docs manifest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**/*.md"
+      - "scripts/generate_manifest.py"
+  workflow_dispatch: {}
+
+jobs:
+  build-manifest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout with full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate manifest.json
+        run: python3 scripts/generate_manifest.py
+
+      - name: Commit manifest.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/manifest.json
+          if git diff --staged --quiet; then
+            echo "manifest.json не изменился, коммит не нужен"
+          else
+            git commit -m "chore: update docs manifest [skip ci]"
+            git push
+          fi
