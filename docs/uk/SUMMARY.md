@@ -15,6 +15,7 @@
 
 ## 📋 Оновлення
 
+* [Версія V2](obnovleniya/v2.md)
 * [14.10.2025 Патч #1](obnovleniya/2025-2026/patch-1.md)
 * [1.05.2026 Патч #2](obnovleniya/2025-2026/patch-2.md)
 * [12.01.2025](obnovleniya/12.01.2025.md)
