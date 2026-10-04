@@ -8,7 +8,7 @@
 
 ## Шаги
 
-1. Перейди по ссылке для приглашения [https://fistashkinbot.xyz/invite](https://discord.com/api/oauth2/authorize?client_id=991338113630752928&permissions=8&scope=applications.commands%20bot)
+1. Перейди по ссылке для приглашения [https://fistashkinbot.xyz/invite ↗](https://discord.com/api/oauth2/authorize?client_id=991338113630752928&permissions=8&scope=applications.commands%20bot)
 2. Выбери сервер из выпадающего списка
 3. Нажми **Авторизовать** и пройди капчу
 4. Готово! Бот появится на сервере 🎉

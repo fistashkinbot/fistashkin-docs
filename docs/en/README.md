@@ -16,7 +16,7 @@ The documentation is currently under development
 You will need the permission: **Manage Server**
 {% endhint %}
 
-Follow the link and select the desired server: [https://fistashkinbot.xyz/invite ↗](https://fistashkinbot.xyz/invite)
+Follow the link and select the desired server: [https://fistashkinbot.xyz/invite ↗](https://discord.com/api/oauth2/authorize?client_id=991338113630752928&permissions=8&scope=applications.commands%20bot)
 
 ## I couldn't find answers to my questions here!
 

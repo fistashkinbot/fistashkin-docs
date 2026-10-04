@@ -8,7 +8,7 @@ Adding the bot requires the **Manage Server** permission on the target server.
 
 ## Steps
 
-1. Go to the invite link [https://fistashkinbot.xyz/invite](https://discord.com/api/oauth2/authorize?client_id=991338113630752928&permissions=8&scope=applications.commands%20bot)
+1. Go to the invite link [https://fistashkinbot.xyz/invite ↗](https://discord.com/api/oauth2/authorize?client_id=991338113630752928&permissions=8&scope=applications.commands%20bot)
 2. Select your server from the dropdown list
 3. Click **Authorize** and complete the captcha
 4. Done! The bot will appear on the server 🎉
